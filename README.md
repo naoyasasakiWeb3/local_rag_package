@@ -47,8 +47,8 @@ ollama pull nomic-embed-text
 
 1. リポジトリのクローン
 ```bash
-git clone https://github.com/[your-repo]/local-ai-packaged.git
-cd local-ai-packaged
+git clone https://github.com/naoyasasakiWeb3/local_rag_package.git
+cd local_rag_package
 ```
 
 2. 環境変数の設定
@@ -82,8 +82,6 @@ python start_services.py
 
 #### Google Drive の設定
 Google DriveのOAuth認証設定については、[n8nの公式ガイド](https://docs.n8n.io/integrations/builtin/credentials/google/oauth-single-service/)を参照してください。
-
-
 
 ## n8nノードの設定
 
